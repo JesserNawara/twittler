@@ -1,0 +1,62 @@
+.tweets{
+	border: 3px double white;
+	border-radius: 20px;
+	display: block;
+	text-align: center;
+	padding: 20px 10px 20px 10px;
+    margin-bottom: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-image: linear-gradient(rgba(183,238,249,0.6),rgba(25,144,168,0.6)) ;
+	font-family: 'Lobster', cursive;
+	color: #4B0082;
+}
+body{
+background-image: url("background.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+#refresh{
+	margin-top: 10px;
+	background-color: #cacfc8;
+  	color: black;
+  	border: 2px solid #636363;
+  	border-radius: 10px;
+  	text-align: center;
+  	display: block;
+  	font-size: 16px;
+	padding: 5px 10px;
+	transition-duration: 0.4s;
+	margin-left: 47.5%;
+	margin-bottom: 15px;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+}
+#refresh:hover{
+ background-color: #381b39bf;
+ color: white;
+ border-color: #cacfc8;
+}
+#txt{
+	margin-left: 41%;
+	padding: 10px;
+	border-radius: 10px;
+}
+#tweet{
+	background-color: #cacfc8;
+  	color: black;
+  	border: 2px solid #636363;
+  	border-radius: 10px;
+  	text-align: center;
+  	font-size: 16px;
+	transition-duration: 0.4s;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+}
+#tweet:hover{
+ background-color: #381b39bf;
+ color: white;
+ border-color: #cacfc8;
+}

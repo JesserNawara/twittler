@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="data_generator.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Indie+Flower&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- <textarea id="textarea" placeholder="write your tweet !!"></textarea> -->
+    <input id="txt" type="textarea" name="tweet" placeholder="write your tweet !!">
+    <button id="tweet"> Tweet !</button> </br>
+    <button id="refresh"> Refresh </button>
+    <div id="selector"></div>
+    <script>
+/*
+      $(document).ready(function(){
+        $("#tweet").click(function(){
+          console.log($("input").val())
+        })
+        var $body = $('body'); // A variable name to target the body.
+        //$body.html(''); //This will empty the body to be ready to add new tweets.
+
+        var index = streams.home.length - 1; //streams.home contains all of the tweets from all the users.
+        while(index >= 0){
+          var tweet = streams.home[index]; // We grab the current tweet from the end of streams.home 
+          var $tweet = $('<div></div>'); // We create a new div for the tweet.
+          $tweet.text('@' + tweet.user + ': ' + tweet.message); //We fill the div with the username and the tweet message.
+          $tweet.appendTo($body); // Add the tweet to the body.
+          index -= 1;
+        }
+
+      });
+*/
+    </script>
+     <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
